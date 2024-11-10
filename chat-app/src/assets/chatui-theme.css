@@ -1,0 +1,67 @@
+:root {
+    --brand-1: #1877ff;
+    --brand-2: #4692ff;
+    --brand-3: #bad6ff;
+    --btn-primary-color: #ffffff;
+}
+
+.ChatApp,
+.MessageContainer,
+.Navbar,
+.Message .Bubble,
+.QuickReplies,
+.ChatFooter {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ChatApp {
+    background-color: #23272e;
+}
+
+.Navbar {
+    background-color: #23272e;
+}
+
+.Navbar-title {
+    color: #fff;
+}
+
+.Message.left .Bubble {
+    background-color: #000000;
+    color: #fff;
+}
+
+.Message.right .Bubble {
+    background-color: #000000;
+    color: #fff;
+}
+
+.QuickReply.highlight {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.QuickReplies,
+.ChatFooter {
+    background-color: #000000;
+}
+
+
+.Composer-input {
+    background-color: efefef;
+}
+
+.Composer {
+    background: #23272e;
+}
+
+/* .ChatApp,
+.Navbar {
+    display: none;
+} */
+
+.Navbar {
+    display: none;
+} 

@@ -1,0 +1,27 @@
+{
+  "name": "autopub",
+  "version": "1.24.111",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd ./backend && go run .",
+    "dev": " run-p dev:extension dev:view",
+    "build":"cd packages/extension && pnpm package",
+    "ei":"cd packages/extension && pnpm i ",
+    "dev:extension": "cd packages/extension && pnpm watch",
+    "dev:view": "pnpm run -F view watch",
+    "clear": "rimraf ./node_modules && run-s  clear:*",
+    "clear:extension": "pnpm run -F extension clear",
+    "clear:view": "pnpm run -F view clear"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.4"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.5"
+  }
+}

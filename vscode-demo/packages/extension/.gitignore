@@ -1,0 +1,11 @@
+node_modules
+.vscode
+.vscode-test/
+*.vsix
+.idea
+package-lock.json
+out
+env.ts
+pkg
+bin
+pnpm-lock.yaml
